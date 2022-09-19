@@ -138,7 +138,9 @@ public class JobData {
 
     /**
      * Read in data from a CSV file and store it in an ArrayList of Job objects.
+     *
      */
+
     private static void loadData() {
 
         // Only load data once
