@@ -37,10 +37,8 @@
     <hr />
 
     <!-- TODO #4 - Loop over the search results to display all job fields. -->
-    <p th:text="${searchType}"></p>
-    <p th:text="${searchTerm}"></p>
-    <p th:text="${success}"></p>
-    <p th:text="${jobs.size()}"></p>
+
+    <div th:replace="list-jobs :: display-search"></div>
 
 </div>
 
